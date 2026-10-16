@@ -1,5 +1,13 @@
-export const phone = '6285293000492' // Ganti dengan nomor WhatsApp warung
+export const phone = '6281234567890' // Ganti dengan nomor WhatsApp warung
+export const pempekPaket = [
+  { pcs: 8, price: 11000 },
+  { pcs: 13, price: 16000 },
+  { pcs: 18, price: 21000 },
+  { pcs: 23, price: 26000 },
+  { pcs: 29, price: 31000 },
+]
 export const menu = [
+  {name:'Pempek 74', price:11000, desc:'Pempek Kapal Selam atau Lenjer, tersedia berbagai pilihan paket. Isian bisa request.', image:`${import.meta.env.BASE_URL}images/pempek-74.jpeg`, emoji:'🍲', pempek:true},
   {name:'Klepon', price:5000, desc:'Bola ketan pandan, gula merah lumer, dan kelapa parut.', image:'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80', emoji:'🍡'},
   {name:'Lemper Ayam', price:4000, desc:'Ketan gurih dengan isian ayam berbumbu.', image:'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80', emoji:'🍙'},
   {name:'Onde-Onde', price:5000, desc:'Kulit wijen renyah dengan isian kacang hijau.', image:'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80', emoji:'🥮'},
