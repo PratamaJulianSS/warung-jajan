@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+:root{font-family:'DM Sans',sans-serif;color:#292524;background:#fffaf1;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{margin:0;min-width:320px}
+h1,h2,h3{font-family:'Plus Jakarta Sans',sans-serif}
+@layer components{
+ .container-site{@apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12}
+ .section{@apply py-20 sm:py-24}
+ .section-title{@apply mt-4 text-3xl font-extrabold leading-tight tracking-tight text-stone-900 sm:text-4xl}
+ .eyebrow{@apply inline-flex rounded-full bg-orange-100 px-4 py-2 text-xs font-extrabold uppercase tracking-wider text-orange-700}
+ .btn-primary{@apply inline-flex items-center justify-center gap-2 rounded-full bg-orange-600 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-orange-200 transition hover:bg-orange-700}
+ .btn-outline{@apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-orange-200 px-6 py-3 text-sm font-bold text-orange-800 transition hover:border-orange-500}
+}
