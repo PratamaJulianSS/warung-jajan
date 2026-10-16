@@ -1,4 +1,4 @@
-export const phone = '6281234567890' // Ganti dengan nomor WhatsApp warung
+export const phone = '6285293000492' // Ganti dengan nomor WhatsApp warung
 export const menu = [
   {name:'Klepon', price:5000, desc:'Bola ketan pandan, gula merah lumer, dan kelapa parut.', image:'https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80', emoji:'🍡'},
   {name:'Lemper Ayam', price:4000, desc:'Ketan gurih dengan isian ayam berbumbu.', image:'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80', emoji:'🍙'},
